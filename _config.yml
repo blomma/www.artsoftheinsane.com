@@ -1,0 +1,5 @@
+exclude: [_drafts]
+auto: true
+server: true
+pygments: true
+permalink: pretty

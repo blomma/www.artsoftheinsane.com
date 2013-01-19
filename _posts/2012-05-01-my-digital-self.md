@@ -1,0 +1,17 @@
+---
+layout: post
+title: My digital self
+---
+
+### The notion
+
+I’ve always had the notion that when i could afford it i would start to buy all things digital, software, music, books etc. To date it has been my single most self deluding lie. The thought that, if i could i would, gave me a sort of security blanket which allowed me to continued to pirate content. This was of course much easier when stealing from nameless corporations like Adobe or Microsoft, but with the advent of MAS and App Store all that software suddenly had a very personal touch, the author(s) often had a blog that talked about the process of creating… well whatever it was and the prices dropped from the terrifying heights of Photoshop to something more affordable. But more than anything i think it was my iPhone that made me comfortable with buying things digital.
+
+### First on the shopping block
+Software was the first on the shopping block, over the years i had accumulated a backlog of not so often used programs that was idling in my Applications folder, so a good spring cleaning was the way to go. This reduced them to the bare fucking minimum, now to take stock of what to keep and buy a license for and what to bin. In the end the choice wasn't all that hard, some licenses i already had, Textmate for instance, and some i rebought thru MAS, like Taskpaper and Writeroom. The only black sheep left is Aperture and i suspect i will either bin it or buy a license for it when a new version is released on MAS.
+
+### Kindle paved the way
+This was surprisingly easy, i read books on the kindle app on the iPad and on the Kindle Touch, so i was already buying books, not to say i didn't poses a backlog of books acquired thru some less than legit means, but in a moment of clarity i decided to ignore those and from that moment only buy books. This has worked out extremely well, mostly because books on amazon are ridiculous cheap. The only drawback here is that i’ve grown so accustomed to the ease of Kindle that I’m reluctant to buy from any other place. Or i should say i was reluctant, with the introduction of ‘Send to kindle’ for Mac and ‘Calibre’ the ease with which i can transfer books to my kindle and have them synced across devices is now so easy that buying books from other places is a much easier decision to make. 
+
+### Make Your Own Kind Of Music
+This is the last big fucking hurdle, jesus on a pogo stick, i tormented myself endlessly about this since i have a backlog of some measure which has been acquired in a less than legal manner. In the end i took the same route as with the books, i decided to just start buying music from this on forward. This in itself was a bit of a research project, since i wanted artist to get the maximum bang for my buck i wanted to buy music from sources that gave the most to the artist. After some reading i ended up with what seemed like two choices, iTunes which takes a straight 30% and band camp which take 10-15%, the lower if you sell more. Bandcamp also gives you the option of downloading a flac version of the music. So it seems that Bandcamp is the way to go when buying music, or it would be the perfect choisce if every artist was on there, so my first stop is Bandcamp and if not there a quick stop to iTunes. 
