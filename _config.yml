@@ -1,4 +1,4 @@
-exclude: [_drafts]
+exclude: [_drafts, _images]
 auto: true
 server: true
 pygments: true
