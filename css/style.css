@@ -1,0 +1,117 @@
+/*!
+ * Bootstrap overrides BEGIN
+ */
+
+body {
+    padding-bottom: 20px;
+    background: #e7e6e1;
+    color: #585c62;
+    font-size: 16px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+blockquote {
+    border-left: 10px solid #9d5c4c;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: #dad3c8 1px solid;
+    padding-bottom: 2px;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: #030303 1px solid;
+    cursor: pointer;
+}
+.pagination > li > a,
+.pagination > li > span,
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    background-color: #e7e6e1;
+}
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        max-width: 768px;
+    }
+}
+/*!
+ * Bootstrap overrides END
+ */
+
+.ai-page-header {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.ai-page-header > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media screen and (min-width: 480px) {
+    .ai-page-header {
+        margin-top: 40px;
+    }
+    .ai-page-header > .container-fluid {
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+}
+.nav-center {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.nav-center > li {
+    display: inline-block;
+}
+.nav-center > li > a {
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.nav-center > li > a:hover,
+.nav-center > li > a:focus {
+    background-color: inherit;
+}
+.blog-post {
+    margin-bottom: 90px;
+}
+.blog-post:last-child {
+    margin-bottom: 0px;
+}
+.blog-post-meta-glyph {
+    color: #9d5c4c;
+}
+.blog-post-meta {
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #9d5c4c;
+}
+.blog-post-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.blog-post-title a {
+    border: none;
+}
+.blog-post-title a:hover {
+    border-bottom: #030303 1px solid;
+}
+.blog-post-content p:first-child {
+    text-indent: 30px;
+}
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px dashed #dad3c8;
+    font-size: 12px;
+    font-style: italic;
+}

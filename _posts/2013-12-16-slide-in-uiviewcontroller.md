@@ -1,13 +1,13 @@
 ---
 layout: post
-title: UIModalPresentationCustom in iOS 7, sliding in a controller
+title: UIModalPresentationCustom in iOS 7
 ---
 
 On the road to iOS 7 I've decided to rethink some of the design decisions of [Stray](http://itunes.apple.com/app/stray/id570951876?mt=8) and this is the journey.
 
 After having watched some of the WWDC 2013 sessions on the new transition animation frameworks for presenting a controller I decided this was something I wanted to do, more specifically to have my settings controller slide in from the left on a swipe/pan gesture from the left edge.
 
-This is what I ended up with 
+This is what I ended up with
 
 ![Settings dialog](http://cdn.artsoftheinsane.com/blog/iOS%20Simulator%20Screen%20shot%2027%20aug%202013%2019.16.31.png)
 
@@ -48,10 +48,10 @@ For a non interactive animation (oh yes, there are interactive one's to) you imp
 	    UIView *inView = [transitionContext containerView];
 	    UIView *toView = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey].view;
 	    UIView *fromView = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey].view;
-	
+
 	    if (self.isDismissed) {
 	        UIView *preferenceOverlay = [inView viewWithTag:1];
-	
+
 	        [UIView animateWithDuration:0.4
 	                              delay:0 options:UIViewAnimationOptionCurveEaseOut
 	                         animations:^{
@@ -65,10 +65,10 @@ For a non interactive animation (oh yes, there are interactive one's to) you imp
 	    } else {
 	        UIView *preferenceOverlay = [self createOverlayViewWithFrame:inView.frame];
 	        [inView addSubview:preferenceOverlay];
-	
+
 	        toView.center = CGPointMake(-CGRectGetMidX(inView.frame), CGRectGetMidY(inView.frame));
 	        [inView addSubview:toView];
-	
+
 	        [UIView animateWithDuration:1
 	                              delay:0
 	             usingSpringWithDamping:0.7f
@@ -82,11 +82,11 @@ For a non interactive animation (oh yes, there are interactive one's to) you imp
 	                         }];
 	    }
 	}
-	
+
 	- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
 	    return 1;
 	}
 
 They are responsible for moving the presented controllers view into the correct position when presented and when dismissed. You can of course have two different animation controllers, on for presenting and one for dismissing, but it seemed simpler with just the one.
 
-And that is that, honestly, it was easier than the wwdc 218 session made it look like, but then of course, if you want harder then i suggest you try your hand at the interactive kind. 
+And that is that, honestly, it was easier than the wwdc 218 session made it look like, but then of course, if you want harder then i suggest you try your hand at the interactive kind.

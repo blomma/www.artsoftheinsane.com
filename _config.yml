@@ -1,5 +1,5 @@
 exclude: [_drafts, _images]
-auto: true
-server: true
-pygments: true
 permalink: pretty
+input: GFM
+markdown: kramdown
+paginate: 5
