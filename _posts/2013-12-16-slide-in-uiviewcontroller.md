@@ -9,7 +9,7 @@ After having watched some of the WWDC 2013 sessions on the new transition animat
 
 This is what I ended up with
 
-![Settings dialog](http://cdn.artsoftheinsane.com/blog/iOS%20Simulator%20Screen%20shot%2027%20aug%202013%2019.16.31.png)
+![Settings dialog](http://d1oynh985bgc32.cloudfront.net/iOS%20Simulator%20Screen%20shot%2027%20aug%202013%2019.16.31.png)
 
 First problem I tackled was the swipe/pan gesture. Since Stray is using a `UIPageViewController` I simply added a transparent `UIView` that covered the left side and attached my gesture to that. This won't register a swipe/pan on the actual settings dialog but for the moment that is good enough.
 
