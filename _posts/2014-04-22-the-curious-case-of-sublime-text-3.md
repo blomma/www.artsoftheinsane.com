@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The curious case of Sublime Text 3"
-date: 2014-04-21
+date: 2014-04-22
 ---
 
 As I am want to do, I occasionally take a walk thru the Sublime Text forums to see what is going on, part to see if should try it, part to just read up the latest development news. So skimming thru i found yet another thread lamenting the slow (some would call it dead) development progress on Sublime Text 3 and in that thread i find this gem from an ardent defender that holds the belief that nothing is wrong.
