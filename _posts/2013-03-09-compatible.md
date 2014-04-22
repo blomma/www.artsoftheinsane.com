@@ -9,7 +9,7 @@ Altho i haven’t made all that much in sweeping changes to the data structure t
 
 In Stray i have two things, two structures to account for, one is UserDefaults and the other is our dear old friend CoreData. It would not be the end of the world if i lost track of UserDefaults but why settle and as for CoreData, that would be less good. So for UserDefaults i created a `stateCompatibilityLevel` key which stores the last migration done and for CoreData a Entity called Compatibility was created for the same reason. In the Info.plist i also created a `StrayCompatibilityLevel` which is used for holding the current level of migration.
 
-With that done i moved on to the code, i added a singleton called CompatibilityMigration which gets called in `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`.
+With that done i moved on to the code, i added a singleton called CompatibilityMigration which gets called in `didFinishLaunchingWithOptions`.
 
 and in that wonderful singleton this little gem resides
 
@@ -41,7 +41,7 @@ The actual call to it looks like this
 	}];
 
 The last line
-	
+
 	[self setCoredataCompatibilityLevel:@1];
 
 is there to bump up the CompatibilityLevel after it is done. Also, i opted to make the levels NSNumbers instead of... oh NSStrings, no real reason except for the fact that it was the first things that occurred to me. Notice also the wonderful world of literals as in `@1`, really takes away some of the dreary typing.
