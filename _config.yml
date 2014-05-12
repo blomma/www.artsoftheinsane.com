@@ -6,3 +6,6 @@ paginate: 5
 name: artsoftheinsane - The making off...
 description: The making off...
 url: http://www.artsoftheinsane.com
+
+gems:
+  - jekyll-sitemap
