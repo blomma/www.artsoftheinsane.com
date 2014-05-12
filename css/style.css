@@ -49,7 +49,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .container-fluid {
-        max-width: 900px;
+        max-width: 1100px;
     }
 }
 
@@ -107,12 +107,14 @@ a:hover {
 
 .blog-post-meta-glyph {
     color: #9d5c4c;
+    font-size: 20px;
 }
 
 .blog-post-meta {
     margin-bottom: 0px;
     margin-left: 5px;
     color: #9d5c4c;
+    font-size: 20px;
 }
 
 .blog-post-title {
@@ -122,6 +124,10 @@ a:hover {
 
 .blog-post-title a {
     border: none;
+}
+
+.blog-post-title::first-letter {
+    color: #ff0000;
 }
 
 .blog-post-title a:hover {
