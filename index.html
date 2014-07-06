@@ -9,11 +9,7 @@ title: The making of...
     <article class="blog-post">
         <div class="row">
             <header>
-                <div class="col-md-2" >
-                    <span class="glyphicon glyphicon-bookmark blog-post-meta-glyph"></span>
-                    <span class="blog-post-meta">{{ post.date | date:"%Y"}} {{ post.date | date:"%b" | upcase}} {{ post.date | date:"%d"}}</span>
-                </div>
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <h2 class="blog-post-title">
                         <a href="{{ post.url }}">{{ post.title | upcase}}</a>
                     </h2>
@@ -21,8 +17,7 @@ title: The making of...
             </header>
         </div>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <section class="blog-post-content">
                     {{ post.content }}
                 </section>

@@ -5,11 +5,7 @@ layout: default
 <article class="blog-post">
     <div class="row">
         <header>
-            <div class="col-md-2" >
-                <span class="glyphicon glyphicon-bookmark blog-post-meta-glyph"></span>
-                <span class="blog-post-meta">{{ page.date | date:"%Y"}} {{ page.date | date:"%b" | upcase}} {{ page.date | date:"%d"}}</span>
-            </div>
-            <div class="col-md-10">
+            <div class="col-md-12">
                 <h2 class="blog-post-title">
                     {{ page.title | upcase}}
                 </h2>
@@ -17,8 +13,7 @@ layout: default
         </header>
     </div>
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-10">
+        <div class="col-md-12">
             <section class="blog-post-content">
                 {{ content }}
             </section>
