@@ -3,20 +3,9 @@
  */
 
 body {
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 20px;
-    background: #e7e6e1;
-    color: #585c62;
-    font-size: 18px;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 5px;
+    font-family: 'Lato', serif;
+    background: #FFFFFF;
+    color: #212222;
 }
 
 blockquote {
@@ -57,6 +46,35 @@ a:hover {
 /*!
  * Bootstrap overrides END
  */
+
+.blog-post {
+     font-size: 1.6em;
+     line-height: 1.7em;
+}
+
+.blog-post-content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.hero {
+	margin-bottom: 90px;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero p {
+    margin: 0px;
+}
 
 .ai-page-header {
     margin-top: 5px;
@@ -102,10 +120,6 @@ a:hover {
     margin-bottom: 90px;
 }
 
-.blog-post:last-child {
-    margin-bottom: 0px;
-}
-
 .blog-post-meta-glyph {
     color: #9d5c4c;
     font-size: 20px;
@@ -120,7 +134,7 @@ a:hover {
 
 .blog-post-title {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .blog-post-title a {
@@ -135,13 +149,8 @@ a:hover {
     border-bottom: #030303 1px solid;
 }
 
-/*.blog-post-content > p:first-child {
-    text-indent: 30px;
-}*/
-
 .footer {
     padding-top: 19px;
-    border-top: 1px dashed #dad3c8;
     color: #777;
     font-style: italic;
     font-size: 12px;

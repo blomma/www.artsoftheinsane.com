@@ -5,26 +5,36 @@ title: The making of...
 
 <section id="articles">
     {% for post in paginator.posts %}
+    {% if post.layout == 'hero' %}
 
+    <div class="hero">
+        {{ post.content }}
+    </div>
+
+    {% else %}
+
+    <div class="container-fluid">
     <article class="blog-post">
         <div class="row">
             <header>
                 <div class="col-md-12">
-                    <h2 class="blog-post-title">
-                        <a href="{{ post.url }}">{{ post.title | upcase}}</a>
+                    <h2 class="blog-post-title text-center">
+												<a href="{{ post.url }}">{{ post.title | upcase}}</a>
                     </h2>
                 </div>
             </header>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <section class="blog-post-content">
-                    {{ post.content }}
+                 <section class="blog-post-content">
+                     {{ post.content }}
                 </section>
             </div>
         </div>
     </article>
+    </div>
 
+    {% endif %}
     {% endfor %}
 </section>
 
@@ -33,37 +43,12 @@ title: The making of...
     <ul class="pagination">
         {% if paginator.previous_page %}
         <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-        {% else %}
-        <li class="disabled">
-            <a href="#">&laquo;</a>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
         </li>
         {% endif %}
-        {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-        <li class="active">
-            <a href="#">{{ page }}
-                <span class="sr-only">(current)</span>
-            </a>
-        </li>
-        {% elsif page == 1 %}
-        <li>
-            <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        </li>
-        {% else %}
-        <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
         {% if paginator.next_page %}
         <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-        {% else %}
-        <li class="disabled">
-            <a href="#">&raquo;</a>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
         </li>
         {% endif %}
     </ul>

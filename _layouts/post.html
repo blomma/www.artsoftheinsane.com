@@ -2,11 +2,12 @@
 layout: default
 ---
 
+<div class="container-fluid">
 <article class="blog-post">
     <div class="row">
         <header>
             <div class="col-md-12">
-                <h2 class="blog-post-title">
+                <h2 class="blog-post-title text-center">
                     {{ page.title | upcase}}
                 </h2>
             </div>
@@ -14,9 +15,10 @@ layout: default
     </div>
     <div class="row">
         <div class="col-md-12">
-            <section class="blog-post-content">
-                {{ content }}
+             <section class="blog-post-content">
+                 {{ content }}
             </section>
         </div>
     </div>
 </article>
+</div>

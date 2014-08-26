@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wildstar Engineer"
+title: "Wildstar and engineers"
 date: 2014-07-06
 ---
 
@@ -9,8 +9,3 @@ The secret to having fun in Wildstar is to just roll with it. Take me as an exam
 But despite all of these glaring issues I’m still having fun, maybe it's because I played a Hunter in Wow and am used to pets being second class citizens, but whatever the cause, Wildstar is fun with my engineer.
 
 And speaking of Wow, Engineer feels very different as a pet class from Hunters. With Hunters, pets always felt like a focus, even more so if you where a Beastmaster. But here with my Engineer they more feel like a side thing, you can’t name them, you have a limited selection of bots and they all look exactly alike. Which also makes it a little bit harder to love them.
-
-So what is Wildstar missing then.
-
-1. Weather, just the variation of day and night would be awesome
-2. Nothing comes to mind…
