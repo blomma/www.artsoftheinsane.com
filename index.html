@@ -5,7 +5,7 @@ title: The making of...
 
 <section id="articles">
     {% for post in paginator.posts %}
-    {% if post.layout == 'hero' %}
+    {% if post.hero == true %}
 
     <div class="hero">
         {{ post.content }}
