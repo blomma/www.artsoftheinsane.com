@@ -1,4 +1,4 @@
-exclude: [_drafts, bower.json, Gemfile, Gemfile.lock]
+exclude: [_drafts, Rakefile.rb, Gemfile, Gemfile.lock]
 permalink: pretty
 input: GFM
 markdown: kramdown
