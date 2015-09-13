@@ -9,3 +9,4 @@ url: http://www.artsoftheinsane.com
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
