@@ -89,4 +89,4 @@ For a non interactive animation (oh yes, there are interactive one's to) you imp
 
 They are responsible for moving the presented controllers view into the correct position when presented and when dismissed. You can of course have two different animation controllers, on for presenting and one for dismissing, but it seemed simpler with just the one.
 
-And that is that, honestly, it was easier than the wwdc 218 session made it look like, but then of course, if you want harder then i suggest you try your hand at the interactive kind.
+And that is that, honestly, it was easier than the WWDC 218 session made it look like, but then of course, if you want harder then i suggest you try your hand at the interactive kind.

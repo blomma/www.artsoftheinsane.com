@@ -8,7 +8,7 @@ published: true
 Initially I used [VirtualBox][7cba8ed7] to test out [Vagrant][8d3417c4], but it soon became clear that VirtualBox wouldn't cut it on my iMac Retina, it was okay in windowed mode, but fullscreen just killed performance, dragging a window was a exercise in futility. But I had a copy of [VMware Fusion 7][4c067779] installed I knew would work wonders.
 
 But to make VMware Fusion work with Vagrant you need a plugin which you can buy from [https://www.vagrantup.com/vmware][ed373d5a].
-As a side note, I like this kind of add-on purchase, especially in this case when it comes with a “30-day, no questions asked, 100% money-back guarantee” as per the [F.A.Q][eded2c21].
+As a side note, I like this kind of add-on purchase, especially in this case where it comes with a “30-day, no questions asked, 100% money-back guarantee” as per the [F.A.Q][eded2c21].
 
 Right, so once the plugin is installed you will notice that everything will work pretty much as it did with VirtualBox. I say pretty much, but there are a few caveats.
 
