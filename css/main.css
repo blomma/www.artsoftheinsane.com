@@ -3,13 +3,15 @@
  */
 
 body {
-    font-family: 'Lato', serif;
+	font-family: Lucida Console, Monaco, monospace;
     background: #FFFFFF;
     color: #212222;
 }
 
 blockquote {
-    border-left: 10px solid #9d5c4c;
+    border-left: 10px solid #FFB88C;
+    padding: 0 3em;
+    margin: 3em 0;
 }
 
 a {
@@ -48,7 +50,7 @@ a:hover {
  */
 
 .blog-post {
-     font-size: 1.4em;
+     font-size: 1.0em;
      line-height: 1.7em;
 }
 
