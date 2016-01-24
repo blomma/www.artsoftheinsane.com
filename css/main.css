@@ -28,17 +28,6 @@ a:hover {
     cursor: pointer;
 }
 
-.pagination > li > a,
-.pagination > li > span,
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
-.pagination > .disabled > a,
-.pagination > .disabled > a:hover,
-.pagination > .disabled > a:focus {
-    background-color: #e7e6e1;
-}
-
 @media screen and (min-width: 768px) {
     .container-fluid {
         max-width: 900px;
@@ -99,15 +88,19 @@ a:hover {
 }
 
 .nav-center {
-    margin-top: 0px;
-    margin-bottom: 20px;
+	padding-left: 0;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	list-style: none
 }
 
 .nav-center > li {
-    display: inline-block;
+    display: inline;
 }
 
 .nav-center > li > a {
+	display: inline-block;
     padding-right: 5px;
     padding-bottom: 2px;
     padding-left: 5px;

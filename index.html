@@ -4,16 +4,12 @@ title: The making of...
 ---
 
 <section id="articles">
-
     {% for post in paginator.posts %}
     {% if post.hero == true %}
-
     <div class="hero">
         {{ post.content }}
     </div>
-
     {% else %}
-
     <div class="container-fluid">
         <article class="blog-post">
             <div class="row">
@@ -30,32 +26,25 @@ title: The making of...
             </div>
         </article>
     </div>
-
     {% endif %}
     {% endfor %}
 </section>
 
 {% if paginator.total_pages > 1 %}
-
-<nav class="text-center">
-    <ul class="pagination">
-
-        {% if paginator.previous_page %}
-
-        <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
-        </li>
-
-        {% endif %}
-        {% if paginator.next_page %}
-
-        <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
-        </li>
-
-        {% endif %}
-
-    </ul>
-</nav>
-
+<div class="container-fluid">
+    <nav>
+        <ul class="nav-center">
+            {% if paginator.previous_page %}
+            <li>
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
+            </li>
+            {% endif %}
+            {% if paginator.next_page %}
+            <li>
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
 {% endif %}
