@@ -1,5 +1,5 @@
 exclude: [_drafts, Rakefile.rb, Gemfile, Gemfile.lock]
-permalink: pretty
+permalink: none
 input: GFM
 markdown: kramdown
 paginate: 5
