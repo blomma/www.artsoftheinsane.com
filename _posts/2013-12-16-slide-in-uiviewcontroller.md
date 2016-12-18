@@ -1,8 +1,3 @@
----
-layout: post
-title: Slide in uiviewcontroller
----
-
 On the road to iOS 7 I've decided to rethink some of the design decisions of [Stray](http://itunes.apple.com/app/stray/id570951876?mt=8) and this is the journey.
 
 After having watched some of the WWDC 2013 sessions on the new transition animation frameworks for presenting a controller I decided this was something I wanted to do, more specifically to have my settings controller slide in from the left on a swipe/pan gesture from the left edge.

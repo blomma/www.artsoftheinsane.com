@@ -1,8 +1,3 @@
----
-layout: post
-title:  Meantime to Urbanears Medis failure
----
-
 128 days ago, or so, I returned my [Urbanears Medis](http://www.urbanears.com/headphones/medis) headphones, for the fourth time they developed a glitch which drops the sound in a random ear and for the fourth time I had the pleasure of dealing with their customer support.
 
 Curious as I am it got me wondering when I could expect my current number 5 to break down. So I dug into my gmail folder to unearth the dozen or so messages that had been flying back and forth between their customer support and me to construct a timeline of sorts.

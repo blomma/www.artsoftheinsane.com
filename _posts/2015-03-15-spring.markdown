@@ -1,8 +1,4 @@
 ---
 hero: true
-title: spring
-date: "2015-03-15 16:41"
-published: true
 ---
-
 ![Spring](/images/P3120005.jpg)

@@ -1,9 +1,3 @@
----
-layout: post
-title: Ads
-date: '2015-09-19 17:35'
----
-
 No matter how you feel about adblockers, good or bad, the fact is that ads turn every article, every piece of word written, every lovingly crafted webpage into a immersion breaking piece of utter shit. And no amount of playing nice will ever convince even one of these ad publishers to find a more sustainable business model.
 
 So yeah, adblockers might be the nuclear option in this war against ads, but enough is enough, I would rather have a future web with far less content that have to put up with this bullshit anymore.

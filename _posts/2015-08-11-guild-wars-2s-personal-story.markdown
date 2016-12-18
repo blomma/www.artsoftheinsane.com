@@ -1,9 +1,3 @@
----
-layout: post
-title: "Guild Wars 2's personal story"
-date: '2015-08-11 09:45'
----
-
 Guild Wars 2 is a odd duck, I've been trying to get into it for a long time, plodding along with my engineer but never finding it sticking to me. The personal story has always felt disconnected from me, both the character and me as a person playing the game.
 
 A couple of days ago I dinged 80 and with that the last chapters of the personal story opened up. And this time in an effort of immersing myself I decided to go thru it all in quick succession in an attempt to make it less hacked up. On I went, and for the first time enjoying the story and understanding what was happening.

@@ -1,8 +1,3 @@
----
-layout: post
-title:  The Compatibility Conundrum
----
-
 Work has been in the key of [RoR](http://guides.rubyonrails.org/migrations.html) like migrations, first with [Entity Framework](http://msdn.microsoft.com/en-us/data/ef.aspx) and then with [fluentmigrator](https://github.com/schambers/fluentmigrator), it really beats the pants of trying to keep everything in sync manually. So being inspired by that i thought i give my own code for [Stray](http://stray.artsoftheinsane.com) a good unpack and unhack in the segment of code i use for migration of old data.
 
 Altho i haven’t made all that much in sweeping changes to the data structure there is a few smaller things that has accrued over time and my adhoc migration code is starting to feel the weight of it, but more importantly it was getting harder and harder to actually discern what was going on since the migration code was mixed in with the code that read it.

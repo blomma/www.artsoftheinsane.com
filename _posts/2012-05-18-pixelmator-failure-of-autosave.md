@@ -1,8 +1,3 @@
----
-layout: post
-title: Pixelmator - Failure of Auto Save/Versions
----
-
 So I've been back and forth between [Acorn](http://flyingmeat.com/acorn/) and [Pixelmator](http://www.pixelmator.com/), previously i had a license for Acorn 2 and liked it, but i thought i would give both of them a fair shake. So I've been trying out Pixelmator 2 and Acorn 3, both are nice, Pixelmator has an annoying bug that made it impossible to scroll with an external mouse, they say that they are aware of the issue but had no timeline for the fix, fair enough and not really a deal breaker. What is a deal breaker is the latest update to Pixelmator, 2.0.4, previously they had **Auto Save/Versions** on by default and you could turn it off thru the command line
 
     defaults -currentHost write com.pixelmatorteam.pixelmator "disableAutosave" -bool YES

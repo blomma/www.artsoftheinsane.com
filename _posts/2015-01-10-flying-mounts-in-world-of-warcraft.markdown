@@ -1,9 +1,3 @@
----
-layout: post
-title: Flying mounts in World of Warcraft
-date: "2015-01-10 20:34"
----
-
 By large I think flying mounts has taken away most of the wonder of exploration in World of Warcraft. I recently reacquainted myself with the world of Azeroth, or to be more precise my adventure started in Pandaria and it started on foot with only my trusted sabretooth to keep me company on my journey. As every expansion to date, after flying was introduced, you have to get certified for flying in that area and that also requires max level for the expansion.
 
 So as far as levelling is concerned you are forced to schlepp around on the ground like some commoner. But that was hardly a problem, max level was never a hard goal to reach and by the time you hit the level requirement you had enough gold to buy that oh so alluring licence.
