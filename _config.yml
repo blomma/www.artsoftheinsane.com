@@ -3,10 +3,10 @@ permalink: none
 input: GFM
 markdown: kramdown
 paginate: 5
-name: artsoftheinsane - The making off...
+title: artsoftheinsane - The making off...
 description: The making off...
 url: http://www.artsoftheinsane.com
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed

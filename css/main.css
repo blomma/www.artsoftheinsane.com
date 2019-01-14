@@ -3,19 +3,19 @@
  */
 
 body {
-	font-family: Lucida Console, Monaco, monospace;
-    background: #FFFFFF;
+    font-family: Helvetica, Lucida Console, Monaco, monospace;
+    background: #ffffff;
     color: #212222;
 }
 
 blockquote {
-    border-left: 10px solid #FFB88C;
+    border-left: 10px solid #ffb88c;
     padding: 0 3em;
     margin: 3em 0;
 }
 
 a {
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     border-bottom: #d1cac0 1px solid;
     color: inherit;
     text-decoration: none;
@@ -28,32 +28,12 @@ a:hover {
     cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-    .container-fluid {
-        max-width: 900px;
-    }
-}
-
 /*!
  * Bootstrap overrides END
  */
 
-.blog-post {
-     font-size: 1.0em;
-     line-height: 1.7em;
-}
-
-.blog-post-content img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
 .hero {
-	margin-bottom: 90px;
+    margin-bottom: 90px;
 }
 
 .hero img {
@@ -72,27 +52,12 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.ai-page-header > .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-@media screen and (min-width: 480px) {
-    .ai-page-header {
-        margin-top: 40px;
-    }
-    .ai-page-header > .container-fluid {
-        padding-right: 90px;
-        padding-left: 90px;
-    }
-}
-
 .nav-center {
-	padding-left: 0;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	text-align: center;
-	list-style: none
+    padding-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    list-style: none;
 }
 
 .nav-center > li {
@@ -100,9 +65,9 @@ a:hover {
 }
 
 .nav-center > li > a {
-	display: inline-block;
+    display: inline-block;
     padding-right: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left: 5px;
 }
 
@@ -112,7 +77,18 @@ a:hover {
 }
 
 .blog-post {
+    font-size: 1.2em;
+    line-height: 1.3em;
     margin-bottom: 90px;
+}
+
+.blog-post-content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .blog-post-meta-glyph {
@@ -129,19 +105,34 @@ a:hover {
 
 .blog-post-title {
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .blog-post-title a {
     border: none;
+    padding-bottom: 0px;
 }
 
 .blog-post-title::first-letter {
-    color: #ff0000;
+    color: #f76565;
 }
 
 .blog-post-title a:hover {
-    border-bottom: #030303 1px solid;
+    border-bottom: #f76565 3px solid;
+}
+
+.archive-post {
+    margin-bottom: 2px;
+}
+
+.archive-post a {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.archive-post a:hover {
+    border-bottom: #f76565 3px solid;
 }
 
 .footer {
@@ -149,4 +140,5 @@ a:hover {
     color: #777;
     font-style: italic;
     font-size: 12px;
+    text-align: center;
 }

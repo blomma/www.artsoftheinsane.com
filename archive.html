@@ -5,27 +5,29 @@ title: Archive
 
 <section id="archive">
     <nav>
-        <div class="row">
-            <div class="col-lg-12">
-                {% for post in site.posts %}
-                {% unless post.next %}
-                <h2>{{ post.date | date: '%Y' }}</h2>
-                <ul>
-                {% else %}
-                {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-                {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-                {% if year != nyear %}
-                </ul>
-                <h2>{{ post.date | date: '%Y' }}</h2>
-                <ul>
-                {% endif %}
-                {% endunless %}
-
-                <li>{{ post.date | date:"%b" | capitalize}} {{ post.date | date:"%d"}}
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </li>
-                {% endfor %}
-                </ul>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    {% for post in site.posts %} {% unless post.next %}
+                    <h2>{{ post.date | date: "%Y" }}</h2>
+                    <ul>
+                        {% else %} {% capture year %}{{
+                            post.date | date: "%Y"
+                        }}{% endcapture %} {% capture nyear %}{{
+                            post.next.date | date: "%Y"
+                        }}{% endcapture %} {% if year != nyear %}
+                    </ul>
+                    <h2>{{ post.date | date: "%Y" }}</h2>
+                    <ul>
+                        {% endif %} {% endunless %}
+                        <li class="archive-post">
+                            {{ post.date | date: "%b" | capitalize }}
+                            {{ post.date | date: "%d" }}
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>

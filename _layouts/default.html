@@ -1,53 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.name }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Mikael Hultgren">
-    {% feed_meta %}
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>{{ site.name }}</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="author" content="Mikael Hultgren" />
+        {% feed_meta %}
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-</head>
+        <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
 
-<body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <header class="ai-page-header">
-        <div class="container-fluid">
-            <nav>
-                <ul class="nav-center">
-                    <li>
-                        <a href="/">home</a>
-                    </li>
-                    <li>
-                        <a href="/archive">archive</a>
-                    </li>
-                </ul>
-            </nav>
-            <p>
-                <strong>Mikael Hultgren</strong>&nbsp;&nbsp;—&nbsp;&nbsp; I'm a coder, baker and climber,
-                by day I code for a living and by night I develop apps for the  landscape of devices. You can find me as “blomma” on
-                <a href="http://twitter.com/blomma">Twitter</a> and
-                <a href="https://github.com/blomma/">Github</a>.
-            </p>
-        </div>
-    </header>
+    <body>
+        <header class="ai-page-header">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <nav>
+                            <ul class="nav-center">
+                                <li><a href="/">home</a></li>
+                                <li><a href="/archive">archive</a></li>
+                            </ul>
+                        </nav>
+                        <p>
+                            <strong>Mikael Hultgren</strong
+                            >&nbsp;&nbsp;—&nbsp;&nbsp; I'm a coder, baker and
+                            climber, by day I code for a living and by night I
+                            develop apps for the  landscape of devices. You can
+                            find me as “blomma” on
+                            <a href="http://twitter.com/blomma">Twitter</a> and
+                            <a href="https://github.com/blomma/">Github</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    {{ content }}
+        {{ content }}
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <p>
-                <small>All Content &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>
-                    <a href="mailto:blomma@gmail.com">Mikael Hultgren</a>/ artsoftheinsane.com Powered by
-                    <a href="http://jekyllrb.com">Jekyll</a>
-                </small>
-            </p>
-        </div>
-    </footer>
-</body>
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <p>
+                            <small
+                                >All Content &copy;<script
+                                    type="text/javascript"
+                                >
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                <a href="mailto:blomma@gmail.com"
+                                    >Mikael Hultgren</a
+                                >/ artsoftheinsane.com Powered by
+                                <a href="http://jekyllrb.com">Jekyll</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
