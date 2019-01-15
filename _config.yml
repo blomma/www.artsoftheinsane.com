@@ -1,4 +1,17 @@
-exclude: [_drafts, Rakefile.rb, Gemfile, Gemfile.lock]
+exclude:
+    [
+        _drafts,
+        Rakefile.rb,
+        Gemfile,
+        Gemfile.lock,
+        node_modules,
+        package-lock.json,
+        package.json,
+        .ruby-version,
+        .gitignore,
+        css/bootstrap-grid.css,
+        css/main.css,
+    ]
 permalink: none
 input: GFM
 markdown: kramdown
@@ -8,5 +21,5 @@ description: The making off...
 url: http://www.artsoftheinsane.com
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-feed
