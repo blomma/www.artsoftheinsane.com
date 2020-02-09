@@ -14,7 +14,7 @@ exclude:
     ]
 permalink: none
 input: GFM
-markdown: kramdown
+markdown: GFM
 paginate: 5
 title: artsoftheinsane - The making off...
 description: The making off...
