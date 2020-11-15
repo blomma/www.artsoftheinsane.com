@@ -1,4 +1,0 @@
----
-hero: true
----
-![Spring](/images/P3120005.jpg)

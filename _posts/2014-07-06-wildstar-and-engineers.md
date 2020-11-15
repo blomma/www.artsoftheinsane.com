@@ -1,5 +1,0 @@
-The secret to having fun in Wildstar is to just roll with it. Take me as an example, I’m playing an Engineer and I could wax on about the fact that Engineers are buggy as hell and that our pets are moody to say the least. More than once I’ve had my dear pet completely ignore my command mid fight and decide to instead fetch the prime that is way over there minding its own business, you know, just for the hell of it.
-
-But despite all of these glaring issues I’m still having fun, maybe it's because I played a Hunter in Wow and am used to pets being second class citizens, but whatever the cause, Wildstar is fun with my engineer.
-
-And speaking of Wow, Engineer feels very different as a pet class from Hunters. With Hunters, pets always felt like a focus, even more so if you where a Beastmaster. But here with my Engineer they more feel like a side thing, you can’t name them, you have a limited selection of bots and they all look exactly alike. Which also makes it a little bit harder to love them.
